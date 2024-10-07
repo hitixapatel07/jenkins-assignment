@@ -26,7 +26,7 @@ public class App {
       		WebDriver driver = new ChromeDriver(options);
       		// 1. open url
       		// 1. open url
-      		driver.get("http://52.15.183.252:8080/war-test-freestyle/");
+      		driver.get("http://52.15.183.252:8080/war-test/");
       		
       		driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
       	
