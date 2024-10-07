@@ -50,5 +50,6 @@ public class App {
 
       		FileUtils.copyFile(srcFile, destFile);
       		driver.quit();
+      		System.out.println("Script Executed and Result Captured");
     }
 }
